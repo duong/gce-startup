@@ -8,7 +8,10 @@ Automatically sets up development environment with zsh, zplug, tmux and more
 
 ## TODO
 
-Set up vim environment
-Set up git config
-Automatically pull list of repositories
-
+- [x] Add zsh
+- [x] Add zplug and theme
+- [x] Add tmux
+- [ ] Set up vim environment
+- [ ] Set up git config
+- [ ] Automatically pull list of repositories
+- [ ] Add vscode over ssh
