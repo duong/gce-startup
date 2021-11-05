@@ -3,7 +3,7 @@
 # install stuff
 sudo apt install zsh zplug gawk tmux -y
 
-# create .zshrc so when new users are created, zsh is already configured
+# create .zshrc so when new users are created, zsh is already configured https://wiki.debian.org/Zsh
 cat <<EOF > /etc/skel/.zshrc
 # Set path if required
 #export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
