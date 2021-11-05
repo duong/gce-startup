@@ -15,3 +15,5 @@ Automatically sets up development environment with zsh, zplug, tmux and more
 - [ ] Set up git config
 - [ ] Automatically pull list of repositories
 - [ ] Add vscode over ssh
+- [ ] Add vscode extensions sync
+- [ ] Install go
