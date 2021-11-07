@@ -139,5 +139,13 @@ setw -g pane-base-index 1
 
 EOF
 
+# install go
+GO_DOWNLOAD_ZIP='go1.17.3.linux-amd64.tar.gz'
+if [[ ! -d '/usr/local/go' ]]; then
+    wget "https://golang.org/dl/${GO_DOWNLOAD_ZIP}"
+    tar -zxvf "${GO_DOWNLOAD_ZIP}" -C '/usr/local'
+    echo 'export PATH=/usr/local/go/bin:${PATH}' > '/etc/profile.d/go.sh'
+fi
+
 echo "done"
 
