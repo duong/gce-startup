@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install stuff
-sudo apt install zsh zplug gawk tmux -y
+sudo apt install zsh zplug gawk tmux wget -y
 
 # create .zshrc so when new users are created, zsh is already configured https://wiki.debian.org/Zsh
 cat <<EOF > /etc/skel/.zshrc
